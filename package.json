@@ -1,0 +1,18 @@
+{
+  "name": "bare-node",
+  "version": "2.0.2",
+  "description": "hnet node server",
+  "main": "index.mjs",
+  "scripts": {
+    "dev": "nodemon index.mjs",
+    "start": "node index.mjs"
+  },
+  "author": "Jesmora",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@tomphttp/bare-server-node": "^1.2.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "socks-proxy-agent": "^7.0.0"
+  }
+}
